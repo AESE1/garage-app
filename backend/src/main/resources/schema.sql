@@ -1,3 +1,5 @@
+CREATE DATABASE IF NOT EXISTS garage;
+
 drop table if exists cars CASCADE;
 create table cars 
 (
